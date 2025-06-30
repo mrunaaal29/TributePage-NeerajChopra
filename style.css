@@ -1,0 +1,257 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #eafaf1;
+  color: #004d40;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #00796b;
+  font-weight: bold;
+  margin: 30px 0 20px;
+}
+
+h4 {
+    font-weight: bold;
+}
+/*  Navbar  */
+.navbar {
+  font-size: 17px;
+  background-color: #cffff0;
+  margin-bottom: 0 !important;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #00695c !important;
+  font-weight: bold;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar-nav {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.navbar-nav .nav-item {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.dropdown-menu {
+  background-color: #d9fff9;
+  text-align: center;
+}
+
+.dropdown-item {
+  color: #004d40 !important;
+}
+
+  /* Carousel */
+.carousel-inner img {
+  border-radius: 10px;
+}
+
+/*  Sections  */
+.historyDiv {
+  background-color: #b2dfdb;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px;
+  color: #003c3c;
+}
+
+/*  Table */
+table {
+  background-color: #ffffff;
+  border-collapse: collapse;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #80cbc4;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #cffff0;
+  color: #00695c;
+}
+
+tr:nth-child(even) {
+  background-color: #f0fbf9;
+}
+
+/* Cards  */
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.card-img-top {
+  height: 225px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card-title {
+  color: #00796b;
+  font-weight: 600;
+}
+
+/*  Buttons */
+.btn-outline-success {
+  border-color: #80cbc4;
+  color: #00695c;
+}
+
+.btn-outline-success:hover {
+  background-color: #80cbc4;
+  color: white;
+}
+
+.btn-outline-danger:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-outline-primary:hover {
+  background-color: #2196f3;
+  color: white;
+}
+
+/* Contact Us Section */
+.map-container {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+  background-color: #f0fdf4;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form label {
+  font-weight: 500;
+  color: #00695c;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #e0f7fa;
+  border: 1px solid #80cbc4;
+  color: #004d40;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #00796b;
+  box-shadow: 0 0 5px rgba(0, 150, 136, 0.3);
+  outline: none;
+}
+
+.contact-form button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+}
+
+.contact-form button:hover {
+  background-color: #004d40;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #00796b;
+  color: #e0f2f1;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 0.95rem;
+  border-top: 4px solid #004d40;
+}
+
+/*  Media Query  */
+@media screen and (max-width: 650px) {
+  body {
+    background-color: #e0f7ff;
+    color: #003366;
+  }
+
+  .navbar {
+    background-color: #b3e5fc;
+  }
+
+  .navbar-brand,
+  .nav-link {
+    color: #01579b !important;
+  }
+
+  .dropdown-menu {
+    background-color: #e1f5fe;
+  }
+
+  .dropdown-item {
+    color: #01579b !important;
+  }
+
+  h1, h2 {
+    color: #0288d1;
+  }
+
+  .historyDiv {
+    background-color: #b3e5fc;
+    color: #003c66;
+  }
+
+  th {
+    background-color: #b3e5fc;
+    color: #01579b;
+  }
+
+  tr:nth-child(even) {
+    background-color: #e1f5fe;
+  }
+
+  .card-title {
+    color: #0288d1;
+  }
+
+  .btn-outline-success {
+    border-color: #4fc3f7;
+    color: #0288d1;
+  }
+
+  .btn-outline-success:hover {
+    background-color: #4fc3f7;
+    color: white;
+  }
+
+  .contact-form label {
+    color: #0288d1;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    background-color: #e1f5fe;
+    border: 1px solid #4fc3f7;
+    color: #01579b;
+  }
+
+  .contact-form button {
+    background-color: #0288d1;
+  }
+
+  .contact-form button:hover {
+    background-color: #01579b;
+  }
+}
